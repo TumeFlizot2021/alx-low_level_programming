@@ -14,7 +14,7 @@ _putchar('0' + n);
 return (n);
 _putchar('0' + n);
 }
-else 
+else
 {
 n = -n;
 _putchar('0' + n);
