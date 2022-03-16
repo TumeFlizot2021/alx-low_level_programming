@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - check the code.
+ * _isllower - check the code.
  *
- * Return: Always nothing.
+ * Return: either 0 or 1.
  */
 int _islower(int c)
 {
 int i;
 
-for (i = 'a'; i <='z'; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 if (c == i)
 {
