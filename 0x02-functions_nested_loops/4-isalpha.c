@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - check the code.
+ * _isalpha - check the code.
  *@c: letter is being tested
  * Return: Either 0 or 1.
  */
