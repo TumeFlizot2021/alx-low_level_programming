@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_aphabet - prints alphabets from a to z.
+ * print_alphabet - check the code for Holberton School students.
  *
- * Return: nothing.
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
