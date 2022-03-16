@@ -7,15 +7,8 @@
 
 int print_last_digit(int a)
 {
-int b;
-if (a > 0)
-{
-b = a % 10;
-}
-else
-{
-b = -(a) % 10;	
-}
+ a = a >= 0 ? n : n * -1
+ int b = a * 10;
 _putchar('0' + b);
 return (b);
 }
