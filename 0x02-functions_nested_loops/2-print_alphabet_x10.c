@@ -11,7 +11,7 @@ char c = 'a';
 int i;
 for (i = 0; i < 10; i++)
 {
-while(c <= 'z')
+while (c <= 'z')
 {
 _putchar(c);
 c = c + 1;
