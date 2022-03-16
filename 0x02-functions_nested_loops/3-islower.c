@@ -2,9 +2,10 @@
 
 /**
  * _islower - check the code.
- *@c is being tested
+ *@c: letter is being tested
  * Return: either 0 or 1.
  */
+
 int _islower(int c)
 {
 int i;
