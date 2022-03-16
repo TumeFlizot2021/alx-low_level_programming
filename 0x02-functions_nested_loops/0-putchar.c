@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 
-int main()
+int main(void)
 {
         char str[] = "_putchar";
         long unsigned int i;
 
         for(i = 0; i < strlen(str); i++){
 
-                putchar(str[i]);
+                _putchar(str[i]);
         }
-        putchar('\n');
+        _putchar('\n');
 
         return 0;
 }
