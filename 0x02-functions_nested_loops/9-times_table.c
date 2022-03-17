@@ -17,7 +17,7 @@ _putchar(' ');
 temp = i;
 for (j = 1; j < 10; j++)
 {
-if(temp <= 9)
+if (temp <= 9)
 {
 _putchar(' ');
 _putchar('0' + temp);
@@ -27,7 +27,7 @@ else
 _putchar(temp / 10 + '0');
 _putchar(temp % 10 + '0');
 }
-if(j < 9)
+if (j < 9)
 {
 _putchar(',');
 i_putchar(' ');
