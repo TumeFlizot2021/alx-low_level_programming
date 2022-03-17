@@ -20,19 +20,17 @@ for (j = 1; j < 10; j++)
 if(temp <= 9)
 {
 _putchar(' ');
-_putchar(' ');
 _putchar('0' + temp);
 }
 else
 {
-_putchar(' ');
 _putchar(temp / 10 + '0');
 _putchar(temp % 10 + '0');
 }
 if(j < 9)
 {
 _putchar(',');
-_putchar(' ');
+i_putchar(' ');
 }
 temp = temp + i;
 }
