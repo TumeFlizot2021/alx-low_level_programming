@@ -5,14 +5,18 @@
  * Return: Emodullo of a.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int a)
 {
-n = n % 10;
-
-if (n < 0)
+int b;
+if (a > 0)
 {
-n = -n;
-putchar(n + '0');
+b = a % 10;
 }
-return (n);
+else
+{
+b = -(a);
+b = b % 10;	
+}
+_putchar('0' + b);
+return (b);
 }
