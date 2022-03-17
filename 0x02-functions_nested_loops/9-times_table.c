@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * times_table- check the code.
- *@n: letter is being tested
- * Return: Emodullo of a.
+ * Return: prints multiple of 0 to 9.
  */
 
 void times_table(void)
@@ -30,10 +29,11 @@ _putchar(temp % 10 + '0');
 if (j < 9)
 {
 _putchar(',');
-i_putchar(' ');
+_putchar(' ');
 }
 temp = temp + i;
 }
 _putchar('\n');
 }
 }
+
