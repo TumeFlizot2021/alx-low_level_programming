@@ -23,5 +23,8 @@ _putchar('\n');
 }
 _putchar('\n');
 }
+else
+{
 _putchar('\n');
+}
 }
