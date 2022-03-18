@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_diagonal - check for a digit
@@ -9,15 +9,15 @@
 void print_diagonal(int n)
 {
 
-	int i = 0, ii;
+	int i = 0, j;
 
 	while (i < n && n > 0)
 	{
-		ii = 0;
-		while (ii < i)
+		j = 0;
+		while ( j < i)
 		{
 			_putchar(' ');
-			ii++;
+			j++;
 		}
 
 		_putchar('\\');
