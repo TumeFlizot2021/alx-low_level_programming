@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mult - check for upper case letter
+ * mult - multiply two numbers
  * @a : number to multiply
  * @b : number to multiply
  * Return: a*b
