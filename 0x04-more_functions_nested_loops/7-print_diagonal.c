@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - check for a digit
+ * print_diagonal - print diagonal line
  * @n : number of \\ to be printed
  * Return:void
  */
@@ -22,5 +22,7 @@ _putchar('\n');
 i++;
 }
 if (i == 0)
+{
 _putchar('\n');
+}
 }
