@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - check the code.
- *@*n : the address to be reset
+ *@n : the address to be reset
  * Return: Always nothing.
  */
 
