@@ -1,27 +1,18 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * print_array - check string
- * @a: array of integers
- * @n : number of int
- * Return : Always return nothing
+ * print_array - print n of int array
+ * @a: pointer
+ * @n: n
  */
-
 void print_array(int *a, int n)
 {
-	int i = 0;
+	short c = 0;
 
-	while (i < n)
+	while (n-- > 0)
 	{
-		if (i == n - 1)
-		{
-			printf("%d \n", a[i]);
-		}
-		else
-		{
-			printf("%d, ", a[i]);
-		}
-
-		i = i + 1;
+		printf("%d", a[c++]);
+		if (n != 0)
+			printf(", ");
 	}
+
 }
