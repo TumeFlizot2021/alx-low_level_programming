@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcpy - check string
- * @dest: string to be copied to
- * @src : string to be copied from
+ * _strcpy - copy content of src to dest
+ * @dest: pointer
+ * @src : pointer
  * Return : numbers dest
  */
 
