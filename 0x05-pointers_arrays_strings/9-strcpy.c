@@ -3,7 +3,7 @@
  * _strcpy - check string
  * @dest: string to be copied to
  * @src : string to be copied from
- * Return : Always return dest
+ * Return : numbers dest
  */
 
 char *_strcpy(char *dest, char *src)
