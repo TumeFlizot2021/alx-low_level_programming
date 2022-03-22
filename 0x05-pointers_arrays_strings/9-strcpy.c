@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * _strcpy - copy content of src to dest
+ * *_strcpy - copy strg to another string
  * @dest: pointer
- * @src : pointer
- * Return : numbers dest
+ * @src: poiter
+ * Return: numbers dest
  */
+
 
 char *_strcpy(char *dest, char *src)
 {
