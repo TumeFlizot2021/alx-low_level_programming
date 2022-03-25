@@ -21,9 +21,10 @@ char *_strncat(char *dest, char *src, int n)
 	ptr1 = dest + i;
 	ptr2 = src + n;
 
-	while (src < ptr2)
+	while (src < ptr2 && *src != '\0')
 		*ptr1++ = *src++;
+
 	*ptr1 = '\0';
 
-	return (dest);	
+	return (dest);
 }
